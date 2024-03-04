@@ -14,7 +14,7 @@ você receberá "Presentation Error".*/
 
 import java.util.Scanner;
 
-public class B1002 {
+public class Main{
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Informe qual a área do raio");
