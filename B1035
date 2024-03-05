@@ -5,7 +5,7 @@
 
 import java.util.Scanner;
 
-public class B1035 {
+public class Main{
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Me informe os 4 primeiros dígitos separadamente");
