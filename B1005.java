@@ -18,9 +18,9 @@ import java.util.Scanner;
 public class Main{
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Digite a primeira nota");
+        //System.out.println("Digite a primeira nota");
         double a = sc.nextDouble();
-        System.out.println("Digite a segunda nota");
+        //System.out.println("Digite a segunda nota");
         double b = sc.nextDouble();
 
         double m = (a*3.5+b*7.5)/11;
