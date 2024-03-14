@@ -22,11 +22,11 @@ public class Main {
         int numDeTrabalho, horasTrabalhadas;
         double salario, salarioDeTrabalho;
 
-        System.out.println("Qual o seu número de trabalhador?");
+        //System.out.println("Qual o seu número de trabalhador?");
         numDeTrabalho = sc.nextInt();
-        System.out.println("Qual o número de horas trabalhadas?");
+        //System.out.println("Qual o número de horas trabalhadas?");
         horasTrabalhadas = sc.nextInt();
-        System.out.println("Qual o salário do funcionário?");
+        //System.out.println("Qual o salário do funcionário?");
         salario = sc.nextDouble();
 
         salarioDeTrabalho = horasTrabalhadas*salario;
