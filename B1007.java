@@ -15,13 +15,13 @@ public class B1007 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int a,b,c,d,dif;
-        System.out.println("Insira o valor de A");
+        //System.out.println("Insira o valor de A");
         a = sc.nextInt();
-        System.out.println("Insira o valor de B");
+        //System.out.println("Insira o valor de B");
         b = sc.nextInt();
-        System.out.println("Insira o valor de C");
+        //System.out.println("Insira o valor de C");
         c = sc.nextInt();
-        System.out.println("Insira o valor de D");
+        //System.out.println("Insira o valor de D");
         d = sc.nextInt();
 
         dif = (a*b-c*d);
