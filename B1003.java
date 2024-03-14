@@ -20,9 +20,9 @@ public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int a, b, media;
-        System.out.println("Informe o primeiro valor");
+        //System.out.println("Informe o primeiro valor");
         a = scanner.nextInt();
-        System.out.println("Informe o segundo valor");
+        //System.out.println("Informe o segundo valor");
         b = scanner.nextInt();
 
         media = a+b;
