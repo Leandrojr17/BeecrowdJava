@@ -24,3 +24,26 @@ public class Main{
         System.out.format("A = %.4f\n",area);
     }
 }
+
+// OUTRA MANEIRA PARA FAZER ESSA QUESTÃO USANDO ORIENTADA AO OBJETO
+
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        Calculo calc = new Calculo();
+        calc.raio = sc.nextDouble();
+        System.out.printf("A=%.4f\n",calc.area());
+    }
+}
+
+class Calculo {
+    public double n = 3.14159;
+    public double raio;
+    public double area(){
+        return n*(raio*raio);
+    }
+}
+
+
