@@ -62,8 +62,8 @@ interface Forma{
 
 
 class Triangulo implements Forma{
-    public double base;
-    public double altura;
+    private double base;
+    private double altura;
     public Triangulo(double base, double altura){
         this.base = base;
         this.altura = altura;
@@ -79,8 +79,8 @@ class Triangulo implements Forma{
 }
 
 class Circulo implements Forma{
-    public static double pi =3.14159;
-    public double raio;
+    private static double pi =3.14159;
+    private double raio;
 
     public Circulo (double raio){
         this.raio = raio;
@@ -97,9 +97,9 @@ class Circulo implements Forma{
 }
 
 class Trapezio implements Forma{
-    public double baseMaior;
-    public double baseMenor;
-    public double altura;
+    private double baseMaior;
+    private double baseMenor;
+    private double altura;
 
     public Trapezio (double baseMaior, double baseMenor, double altura){
         this.baseMaior = baseMaior;
@@ -117,7 +117,7 @@ class Trapezio implements Forma{
 }
 
 class Quadrado implements Forma{
-    public double lado;
+    private double lado;
     public Quadrado(double lado){
         this.lado = lado;
     }
@@ -132,8 +132,8 @@ class Quadrado implements Forma{
 }
 
 class Retangulo implements Forma{
-    public double base;
-    public double altura;
+    private double base;
+    private double altura;
 
     public Retangulo(double base, double altura){
         this.base = base;
