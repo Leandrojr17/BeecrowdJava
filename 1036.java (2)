@@ -1,0 +1,49 @@
+/*
+  -- Usando Orientada ao Objeto --
+*/
+
+import java.util.Scanner;
+
+class Equacao {
+    private double a;
+    private double b;
+    private double c;
+
+    public Equacao(double a, double b, double c) {
+        this.a = a;
+        this.b = b;
+        this.c = c;
+    }
+
+    public double deltaEquacao() {
+        return (b * b) - 4 * a * c;
+    }
+
+    public String calculoBhaskara() {
+        double delta = deltaEquacao();
+        if (delta < 0 || a == 0) {
+            return "Impossivel calcular";
+        } else {
+            double r1 = (-b + Math.sqrt(delta)) / (2 * a);
+            double r2 = (-b - Math.sqrt(delta)) / (2 * a);
+            return String.format("R1 = %.5f\nR2 = %.5f", r1, r2);
+        }
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        
+        double a, b, c;
+        
+        a = sc.nextDouble();
+        b = sc.nextDouble();
+        c = sc.nextDouble();
+        
+        Equacao equacao = new Equacao(a, b, c);
+        System.out.println(equacao.calculoBhaskara());
+        
+        sc.close();
+    }
+}
